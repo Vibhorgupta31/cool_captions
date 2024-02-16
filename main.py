@@ -18,7 +18,7 @@ st.subheader("Submission for LLM Hackathon")
 st.markdown("<p> <i> Sarah Faiz and Vibhor Gupta", unsafe_allow_html=True,help=None)	
 
 # Note Message
-st.markdown("<p><b>Note:</b>Howdy Web Wanderers!Thanks a bunch for swinging by our site. If the caption magic hits a snag, just retry  a couple of times  – it's got some serious charm. 🌟 Cheers to error-free adventures! 🚀</p>", unsafe_allow_html=True, help=None)
+st.markdown("<p><b>Note: </b>Howdy Web Wanderers!Thanks a bunch for swinging by our site. If the caption magic hits a snag, just retry  a couple of times  – it's got some serious charm. 🌟 Cheers to error-free adventures! 🚀</p>", unsafe_allow_html=True, help=None)
 
 #File Upload
 image = st.file_uploader("Upload your image", type=["png", "jpg", "jpeg"], accept_multiple_files=False, key=None, help=None, on_change=None, args=None, kwargs=None, disabled=False, label_visibility="visible")
